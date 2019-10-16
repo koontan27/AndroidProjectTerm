@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">มารู้แคลกันเถอะ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="foodList">รายการอาหาร</string>
+    <string name="editProfile">แก้ไขข้อมูลส่วนตัว</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="saveProfile">บันทึกข้อมูล</string>
+    <string name="goMaintext">ไปยังหน้าหลัก</string>
+    <string name="maintext">หน้าหลัก</string>
+    <string name="BMItext">ข้อมูล BMI</string>
+    <string name="inputtext">กรุณาระบุข้อมูลเพื่อคำนวณ BMI</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.calcalculated.mainFragment"
+        android:label="มารู้แคลกันเถอะ" />
+    <fragment
+        android:id="@+id/foodFragment"
+        android:name="com.example.calcalculated.foodFragment"
+        android:label="มารู้แคลกันเถอะ" />
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="com.example.calcalculated.inputFragment"
+        android:label="มารู้แคลกันเถอะ">
+        <action
+            android:id="@+id/action_inputFragment_to_overViewFragment"
+            app:destination="@id/overViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/overViewFragment"
+        android:name="com.example.calcalculated.overViewFragment"
+        android:label="มารู้แคลกันเถอะ">
+        <action
+            android:id="@+id/action_overViewFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>

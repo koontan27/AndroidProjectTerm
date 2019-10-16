@@ -12,4 +12,5 @@
     <string name="maintext">หน้าหลัก</string>
     <string name="BMItext">ข้อมูล BMI</string>
     <string name="inputtext">กรุณาระบุข้อมูลเพื่อคำนวณ BMI</string>
+    <string name="about">About</string>
 </resources>

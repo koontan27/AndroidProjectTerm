@@ -27,4 +27,8 @@
             android:id="@+id/action_overViewFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.calcalculated.aboutFragment"
+        android:label="About" />
 </navigation>
